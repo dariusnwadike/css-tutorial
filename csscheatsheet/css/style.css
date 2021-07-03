@@ -163,3 +163,32 @@ a:visited{
     padding:15px;
     box-sizing: border-box;
 }
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url(../images/bgimage.jpeg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed; /* really cool feature (at 1hr and 2mins in video) */
+    top:400px;
+}
